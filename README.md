@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Andrzej Berndt</h1>
-<h3 align="center">A passionate IT Administrator from Poland.</h3>
+<h3 align="center">A passionate Microsoft Technologies and IT Administrator from Poland.</h3>
 
 - 🌱 I’m currently learning **Azure Cloud Administration (AZ-104 Microsoft Certification)**
 
@@ -7,7 +7,7 @@
 
 - 📝 I wrote a few posts on [https://www.linkedin.com/in/andrzej-berndt/recent-activity/shares/](https://www.linkedin.com/in/andrzej-berndt/recent-activity/shares/)
 
-- 💬 Ask me about **Azure, Powershell, Microsoft 365, Windows Server.**
+- 💬 Let's talk about **Azure, Powershell, Microsoft 365, Windows Server.**
 
 - 📫 How to reach me **andrzejberndt@onet.pl**
 
@@ -18,3 +18,22 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> </p>
+<hr>
+<h4 align="left">Scripts description:</h4>
+
+
+# ChangeUPNsMS365
+
+The script is used to replace the UPN (User Principal Name) attribute of the indicated Microsoft 365 users. The script requires a Powershell module named MSOnline. However, if you don't have it - the script will install it for you!
+
+If you want to check yourself whether you have the MSOnline module installed, execute the following command:
+
+```
+Get-InstalledModule -Name MSOnline
+```
+
+If you want to install MSOnline module manually, execute the following command:
+
+```
+Install-Module -Name MSOnline -Confirm
+```
