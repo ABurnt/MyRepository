@@ -1,5 +1,3 @@
-# PowerShell
-PowerShell Scripts
 <h1 align="center">Hi 👋, I'm Andrzej Berndt</h1>
 <h3 align="center">A passionate IT Administrator from Poland.</h3>
 
