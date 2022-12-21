@@ -37,3 +37,15 @@ If you want to install MSOnline module manually, execute the following command:
 ```
 Install-Module -Name MSOnline -Confirm
 ```
+
+```
+Connect-MsolService
+```
+
+```
+Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName > "mails.txt"
+```
+
+```
+Get-ADUser -Filter {Enabled -eq $true} -Properties UserPrincipalName | Sort UserPrincipalName | Select UserPrincipalName > "mails.txt"
+```
