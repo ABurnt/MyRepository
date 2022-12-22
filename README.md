@@ -55,4 +55,15 @@ If you want to get data from local Active Directory (e.g. hybrid infrastructure)
 
 <hr>
 
-#Second Script
+# DiskSpaceChecker
+
+The script is used to monitor disks usage on workstations in your Active Directory domain. Powershell remoting is required to be enabled in your environment for the program to work properly. This script sends email notifications, so you need to have a SMTP Relay configured.
+
+Before you run the script - edit and insert information about your smtp relay connection in commented sections. You can also change OU location of your domain computers.
+
+The script will be ready for use once you've completed these steps. After that, you can place the script in the task scheduler, e.g. once a day and invoke it with the command:
+
+```
+powershell -ep bypass -f "[path to the script]"
+```
+
