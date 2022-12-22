@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **Azure Cloud Administration (AZ-104 Microsoft Certification)**
 
-- 👨‍💻 All of my projects are available at [https://github.com/ABurnt/PowerShell](https://github.com/ABurnt/PowerShell)
+- 👨‍💻 All of my projects are available at [https://github.com/ABurnt/MyRepository](https://github.com/ABurnt/MyRepository)
 
 - 📝 I wrote a few posts on [https://www.linkedin.com/in/andrzej-berndt/recent-activity/shares/](https://www.linkedin.com/in/andrzej-berndt/recent-activity/shares/)
 
