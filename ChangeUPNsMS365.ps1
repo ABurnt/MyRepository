@@ -1,7 +1,7 @@
 ﻿#Change MS365 UPN's users
 #Author: Andrzej Berndt
 
-#Create a file named 'mails.txt' containing emails of users whose UPN you want to change in MS365.
+#Create a file named 'users.txt' containing emails of users whose UPN you want to change in MS365.
 #Put the file in the same location as this script.
 
 Clear-Host
@@ -17,7 +17,7 @@ if (-not $checkModule){
 if ($checkModule){
 
     Connect-msolservice #Connect to MS365
-    $accountsToChange = Get-Content "$PSScriptRoot\mails.txt" #Load user accounts from txt file
+    $accountsToChange = Get-Content "$PSScriptRoot\users.txt" #Load user accounts from txt file
 
     foreach ($account in $accountsToChange){
 
