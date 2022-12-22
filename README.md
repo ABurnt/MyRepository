@@ -24,7 +24,7 @@
 
 # ChangeUPNsMS365
 
-The script is used to replace the UPN (User Principal Name) attribute of the indicated Microsoft 365 users. The script requires a Powershell module named MSOnline. However, if you don't have it - the script will install it for you!
+The script is used to replace the UPN (User Principal Name) attribute of the indicated Microsoft 365 users. Put the users.txt text file including list of users you want to update. The script requires a powershell module named MSOnline. However, if you don't have it - the script will install it for you!
 
 If you want to check yourself whether you have the MSOnline module installed, execute the following command:
 
@@ -38,13 +38,17 @@ If you want to install MSOnline module manually, execute the following command:
 Install-Module -Name MSOnline -Confirm
 ```
 
+You can generate a list of users from Microsoft 365 by using these commands:
+
 ```
 Connect-MsolService
 ```
 
 ```
-Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName > "mails.txt"
+(Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName).UserPrincipalName | Out-File "users.txt"
 ```
+
+If you want to get data from local Active Directory (e.g. hybrid infrastructure - AAD Connect), use the command below:
 
 ```
 Get-ADUser -Filter {Enabled -eq $true} -Properties UserPrincipalName | Sort UserPrincipalName | Select UserPrincipalName > "mails.txt"
