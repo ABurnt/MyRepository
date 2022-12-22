@@ -64,8 +64,8 @@ function SendAnEmail{
     }
 }
 
-if ((Get-Module -Name ActiveDirectory).Count -eq 0){ #Verify if module is installed.
-    Import-Module -Name ActiveDirectory #Import the module if not installed.
+if ((Get-Module -Name ActiveDirectory).Count -eq 0){ #Verify if module is imported.
+    Import-Module -Name ActiveDirectory
 }
 
 $hosts = (Get-ADComputer -SearchBase "OU=Computers,DC=DOMAIN,DC=LOCAL" -Filter 'operatingsystem -notlike "*server*" -and enabled -eq "true"' -Properties *).DNSHostName #Check computers with specific attributes (only Client OS and enable status) and OU location. <-- insert your OU path including computer objects
