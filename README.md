@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Andrzej Berndt</h1>
 <h3 align="center">SecOps and IT Administrator from Poland.</h3>
 
-- 👨‍💻 All of my projects are available at [https://github.com/ABurnt/MyRepository](https://github.com/ABurnt/MyRepository)
+- 👨‍💻 My projects and scripts are available at [https://github.com/ABurnt/MyRepository](https://github.com/ABurnt/MyRepository)
 
 - 📝 LinkedIn activity [https://www.linkedin.com/in/andrzej-berndt/recent-activity/shares/](https://www.linkedin.com/in/andrzej-berndt/recent-activity/shares/)
 
