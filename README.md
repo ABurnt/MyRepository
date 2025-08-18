@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Andrzej Berndt</h1>
+<h1 align="center">Hi 👋, I'm Andrzej</h1>
 <h3 align="center">SecOps and IT Administrator from Poland.</h3>
 
 - 👨‍💻 My projects and scripts are available at [https://github.com/ABurnt/MyRepository](https://github.com/ABurnt/MyRepository)
